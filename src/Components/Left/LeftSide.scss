@@ -1,0 +1,49 @@
+.leftSide {
+    flex-basis: 240px;
+    border-bottom: 1px solid rgba(113 119 144 / 25%);
+    flex-basis: 240px;
+    padding: 26px;
+    overflow: auto;
+    flex-shrink: 0;
+    color: #f9fafb;
+    white-space: nowrap;
+    height: 80vh;
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: rgba(47, 62, 77, 0.4);
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: rgba(14, 30, 46, 0.4);
+        border-radius: 10px;
+    }
+    .leftApps {
+        margin-bottom: 1rem;
+        h4 {
+            font-weight: 600;
+            color: rgba(191, 192, 192, 0.78);
+        }
+        a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #f9fafb;
+            border-radius: 5px;
+            height: 1.9rem;
+            font-weight: 300;
+            font-size: 0.9rem;
+            &:hover {
+                background-color: rgba(12 15 25 / 30%);
+            }
+            svg {
+                width: 20px;
+                height: 15px;
+                margin: 4px;
+            }
+        }
+    }
+}
