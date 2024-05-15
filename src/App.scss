@@ -8,6 +8,7 @@ $darkModeIconColor: #ffce45;
 
 html {
     font-size: 16px;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -58,7 +59,7 @@ body {
 .App {
     border-radius: 0.5rem;
     color: black;
-    height: 90vh;
+    // height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,6 +85,7 @@ body {
         width: 100%;
         overflow: hidden;
         @import "../src/Components/PageHeader/Header.scss";
+        @import "./Components/pages/otherPages.scss";
         .pageBody {
             display: flex;
             @import "./Components/Left/LeftSide.scss";

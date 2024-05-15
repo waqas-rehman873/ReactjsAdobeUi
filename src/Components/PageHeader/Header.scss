@@ -35,12 +35,17 @@
                     border-bottom: 2px solid transparent;
                     &:hover {
                         border-bottom: 2px solid #f9fafb;
-                        color: white;
-                        border-color: #f9fafb;
+                        color: whitesmoke;
                     }
-                    &:active {
+
+                    &:focus {
                         border-bottom: 2px solid #f9fafb;
-                        color: white;
+                        color: whitesmoke;
+                    }
+
+                    &.active-link {
+                        border-bottom: 2px solid #f9fafb;
+                        color: whitesmoke;
                     }
                 }
             }

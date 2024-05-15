@@ -5,7 +5,7 @@ import InstallComp from "./installComp/InstallComp";
 const Softwares = () => {
     return (
         <SoftwareProvider>
-            <div className="softwares">
+            <div className="softwares" id="all-updates">
                 <h4>Installed</h4>
                 <ul>
                     <InstallComp index={0} />

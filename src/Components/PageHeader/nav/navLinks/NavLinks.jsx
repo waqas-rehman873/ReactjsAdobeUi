@@ -1,21 +1,35 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavLinks = () => {
     return (
         <ul className="">
             <li>
-                <Link to="./apps">Apps</Link>
+                <NavLink to="/apps" className={({ isActive }) => (isActive ? "active-link" : "")}>
+                    Apps
+                </NavLink>
             </li>
             <li>
-                <Link to="./your-work">Your work</Link>
-            </li>{" "}
+                <NavLink
+                    to="/yourwork"
+                    className={({ isActive }) => (isActive ? "active-link" : "")}
+                >
+                    Your work
+                </NavLink>
+            </li>
             <li>
-                <Link to="./discover">Discover</Link>
-            </li>{" "}
+                <NavLink
+                    to="/discover"
+                    className={({ isActive }) => (isActive ? "active-link" : "")}
+                >
+                    Discover
+                </NavLink>
+            </li>
             <li>
-                <Link to="./market">Market</Link>
-            </li>{" "}
+                <NavLink to="/market" className={({ isActive }) => (isActive ? "active-link" : "")}>
+                    Market
+                </NavLink>
+            </li>
         </ul>
     );
 };
