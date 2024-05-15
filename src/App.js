@@ -32,5 +32,4 @@ const App = () => {
         </CategoriesProvider>
     );
 };
-
 export default App;

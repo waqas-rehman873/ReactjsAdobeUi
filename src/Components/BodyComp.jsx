@@ -3,10 +3,10 @@ import RightSide from "./RightSide/RightSide";
 import Sidebar from "./Left/Sidebar";
 const BodyComp = () => {
     return (
-        <div className="pageBody">
+        <section className="pageBody">
             <Sidebar />
             <RightSide />
-        </div>
+        </section>
     );
 };
 
