@@ -88,8 +88,8 @@ body {
         @import "./Components/pages/otherPages.scss";
         .pageBody {
             display: flex;
-            @import "./Components/Left/LeftSide.scss";
-            @import "./Components/RightSide/RightSide.scss";
+            @import "./Components/PageBody/sidebar/sidebar.scss";
+            @import "./Components/PageBody/Main/Main.scss";
         }
     }
 }

@@ -1,11 +1,11 @@
 import React from "react";
-import RightSide from "./RightSide/RightSide";
-import Sidebar from "./Left/Sidebar";
+import Sidebar from "./sidebar/Sidebar";
+import Main from "./Main/Main";
 const BodyComp = () => {
     return (
         <section className="pageBody">
             <Sidebar />
-            <RightSide />
+            <Main />
         </section>
     );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import { useSoftwareContext } from "../../../../../context/SoftwareContext";
+import { useSoftwareContext } from "../../../../../../context/SoftwareContext";
 
 const InstallComp = ({ index }) => {
     const { softwareData } = useSoftwareContext();

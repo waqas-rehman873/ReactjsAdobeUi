@@ -1,5 +1,5 @@
 import React from "react";
-import { SoftwareProvider } from "../../../../context/SoftwareContext";
+import { SoftwareProvider } from "../../../../../context/SoftwareContext";
 import InstallComp from "./installComp/InstallComp";
 
 const Softwares = () => {

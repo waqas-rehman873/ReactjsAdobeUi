@@ -3,7 +3,7 @@ import AdobeAds from "./adobeAds/AdobeAds";
 import Softwares from "./softwares/Softwares";
 import AppsPlan from "./appsPlan/AppsPlan";
 
-const RightChildBody = () => {
+const MainBody = () => {
     return (
         <section className="rightChildBody">
             <AdobeAds />
@@ -13,4 +13,4 @@ const RightChildBody = () => {
     );
 };
 
-export default RightChildBody;
+export default MainBody;

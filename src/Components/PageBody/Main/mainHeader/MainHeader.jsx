@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const RightChildHeader = () => {
+const MainHeader = () => {
     return (
         <header className="sectionHeader">
             <nav>
@@ -13,4 +13,4 @@ const RightChildHeader = () => {
     );
 };
 
-export default RightChildHeader;
+export default MainHeader;

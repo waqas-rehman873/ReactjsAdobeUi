@@ -1,5 +1,5 @@
 import { SiAdobephotoshop } from "react-icons/si";
-import glass from "../../../../assests/pics/glass.png";
+import glass from "../../../../../assests/pics/glass.png";
 
 const AdobeAds = () => {
     return (
