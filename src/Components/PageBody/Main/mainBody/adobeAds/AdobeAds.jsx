@@ -1,9 +1,8 @@
 import { SiAdobephotoshop } from "react-icons/si";
 import glass from "../../../../../assests/pics/glass.png";
-
 const AdobeAds = () => {
     return (
-        <div className="adobeAds">
+        <section className="adobeAds" style={{ maxHeight: "250px" }}>
             <card className="adobe">
                 <h3>
                     <SiAdobephotoshop />
@@ -18,7 +17,7 @@ const AdobeAds = () => {
             <figure>
                 <img src={glass} alt="adobe" />
             </figure>
-        </div>
+        </section>
     );
 };
 

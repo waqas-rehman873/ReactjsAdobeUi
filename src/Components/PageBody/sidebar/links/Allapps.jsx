@@ -11,7 +11,7 @@ const Allapps = () => {
                 <FaBars size={16} />
                 <h5>All Apps</h5>
             </Link>
-            <Link to="/all-updates">
+            <Link to="/apps/all-updates">
                 <RxUpdate size={16} />
                 <h5>All Updates</h5>
             </Link>

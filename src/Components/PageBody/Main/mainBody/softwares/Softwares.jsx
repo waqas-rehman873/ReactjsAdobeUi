@@ -1,7 +1,7 @@
 import React from "react";
 import { SoftwareProvider } from "../../../../../context/SoftwareContext";
 import InstallComp from "./installComp/InstallComp";
-
+import "./software.scss";
 const Softwares = () => {
     return (
         <SoftwareProvider>

@@ -2,7 +2,7 @@
 import React from "react";
 import Card from "./card/Card";
 import { CardProvider } from "../../../../../context/CardContext";
-
+import "./appsPlan.scss";
 const AppsPlan = () => {
     return (
         <CardProvider>

@@ -8,3 +8,23 @@
     padding: 2.3rem;
     color: aliceblue;
 }
+.errorPage {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: auto;
+    text-align: center;
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 2rem;
+        margin: 0px;
+    }
+    p {
+        padding: 2px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+}

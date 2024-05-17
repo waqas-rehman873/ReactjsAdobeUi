@@ -1,0 +1,68 @@
+.adobeAds {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 2.4rem;
+    border-radius: 10px;
+    // height: 150px;
+    background-image: url(https://www.transparenttextures.com/patterns/cubes.png),
+        linear-gradient(
+            to right top,
+            #cf4af3,
+            #e73bd7,
+            #f631bc,
+            #fd31a2,
+            #ff3a8b,
+            #ff4b78,
+            #ff5e68,
+            #ff705c,
+            #ff8c51,
+            #ffaa49,
+            #ffc848,
+            #ffe652
+        );
+    .adobe {
+        max-width: 350px;
+        h3 {
+            display: flex;
+            color: #ebebec;
+            svg {
+                width: 28px;
+                color: black;
+                margin-right: 0.9rem;
+            }
+        }
+        p {
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 1.7;
+            color: #ebebec;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            padding: 0%;
+        }
+        button {
+            background-color: #3a6df0;
+            border: none;
+            padding: 8px 26px;
+            color: #fff;
+            border-radius: 20px;
+            margin-top: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+            white-space: nowrap;
+        }
+    }
+    figure {
+        padding: 0;
+        margin: 0;
+        img {
+            width: 180px;
+            object-fit: cover;
+            object-position: center;
+            // margin-top: -25px;
+        }
+    }
+}
