@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { useSoftwareContext } from "../../../../../../context/SoftwareContext";
 
 const InstallComp = ({ index }) => {
     const { softwareData } = useSoftwareContext();
     const software = softwareData[index];
-
+    const [dropdown, setDropdown] = useState(false);
     return (
         <li>
             <span>
@@ -20,15 +20,24 @@ const InstallComp = ({ index }) => {
                     {software.status === "Updated" ? "Open" : "Update"}
                 </button>
                 <div className="customIcon">
-                    <div className="dropdown">
-                        <select>
-                            {software.options.map((option, idx) => (
-                                <option key={idx} value={`option${idx + 1}`}>
-                                    {option}
-                                </option>
-                            ))}
-                        </select>
-                    </div>
+                    <button
+                        onClick={() => {
+                            setDropdown((prev) => !prev);
+                        }}
+                    >
+                        {" "}
+                        {dropdown && (
+                            <>
+                                <div className="dropdownmenu">
+                                    <ul>
+                                        <li>Go to Discover</li>
+                                        <li>Learn More</li>
+                                        <li>Uninstall</li>
+                                    </ul>
+                                </div>
+                            </>
+                        )}
+                    </button>
                 </div>
             </span>
         </li>
